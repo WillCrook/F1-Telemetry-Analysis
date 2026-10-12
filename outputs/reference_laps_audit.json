@@ -1,0 +1,481 @@
+{
+  "session": "2026 Singapore Grand Prix Qualifying Q3",
+  "fastf1_version": "3.8.3",
+  "delta_sign": "reference minus fastest; positive means reference slower",
+  "sector_distance_anchors_m": [
+    0.0,
+    1636.799694971749,
+    3449.9920679384163,
+    4927.0
+  ],
+  "drivers": {
+    "VER": {
+      "fastest": {
+        "Driver": "VER",
+        "LapNumber": 11.0,
+        "LapTime": "0 days 00:01:31.373000",
+        "LapStartTime": "0 days 01:02:10.433000",
+        "LapStartDate": "2026-10-10 14:19:02.180000",
+        "Compound": "SOFT",
+        "TyreLife": 2.0,
+        "FreshTyre": true,
+        "IsAccurate": true,
+        "Deleted": false,
+        "TrackStatus": "1",
+        "FastF1Generated": false
+      },
+      "reference": {
+        "Driver": "VER",
+        "LapNumber": 14.0,
+        "LapTime": "0 days 00:01:31.625000",
+        "LapStartTime": "0 days 01:12:44.689000",
+        "LapStartDate": "2026-10-10 14:29:36.436000",
+        "Compound": "SOFT",
+        "TyreLife": 2.0,
+        "FreshTyre": true,
+        "IsAccurate": true,
+        "Deleted": false,
+        "TrackStatus": "1",
+        "FastF1Generated": false
+      },
+      "chronological_runs": {
+        "fastest": "first Q3 run",
+        "reference": "final Q3 run"
+      },
+      "quality": {
+        "fastest": {
+          "samples": 347,
+          "nulls": {
+            "Date": 0,
+            "RPM": 0,
+            "Speed": 0,
+            "nGear": 0,
+            "Throttle": 0,
+            "Brake": 0,
+            "DRS": 0,
+            "Source": 0,
+            "Time": 0,
+            "SessionTime": 0
+          },
+          "source_counts": {
+            "car": 347
+          },
+          "duplicate_timestamps": 0,
+          "nonincreasing_timestamps": 0,
+          "median_dt_s": 0.24000000000000066,
+          "maximum_dt_s": 1.1599999999999966,
+          "first_sample_s": 0.157,
+          "last_sample_s": 91.317,
+          "channel_ranges": {
+            "Speed": [
+              63.0,
+              308.0
+            ],
+            "Throttle": [
+              0.0,
+              100.0
+            ],
+            "Brake": [
+              false,
+              true
+            ],
+            "nGear": [
+              1,
+              8
+            ],
+            "RPM": [
+              6818.0,
+              12808.0
+            ],
+            "DRS": [
+              0,
+              0
+            ]
+          },
+          "long_gap_count": 3,
+          "range_invalid_counts": {
+            "Speed": 0,
+            "Throttle": 0,
+            "nGear": 0,
+            "RPM": 0,
+            "Brake": 0
+          },
+          "integrated_length_m": 4881.233727678571,
+          "fastf1_add_distance_length_m": 4871.898333333332,
+          "boundary_samples_added": 2,
+          "long_gaps_distance_time": [
+            [
+              1608.0934631253235,
+              1693.0324505065278,
+              26.637,
+              27.717
+            ],
+            [
+              2754.5574032457985,
+              2792.285633727131,
+              50.557,
+              51.717
+            ],
+            [
+              3195.369130285684,
+              3268.066630279738,
+              62.037,
+              63.157
+            ]
+          ]
+        },
+        "reference": {
+          "samples": 343,
+          "nulls": {
+            "Date": 0,
+            "RPM": 0,
+            "Speed": 0,
+            "nGear": 0,
+            "Throttle": 0,
+            "Brake": 0,
+            "DRS": 0,
+            "Source": 0,
+            "Time": 0,
+            "SessionTime": 0
+          },
+          "source_counts": {
+            "car": 343
+          },
+          "duplicate_timestamps": 0,
+          "nonincreasing_timestamps": 0,
+          "median_dt_s": 0.240000000000002,
+          "maximum_dt_s": 1.2399999999999949,
+          "first_sample_s": 0.303,
+          "last_sample_s": 91.344,
+          "channel_ranges": {
+            "Speed": [
+              66.0,
+              308.0
+            ],
+            "Throttle": [
+              0.0,
+              100.0
+            ],
+            "Brake": [
+              false,
+              true
+            ],
+            "nGear": [
+              1,
+              8
+            ],
+            "RPM": [
+              7246.0,
+              12835.0
+            ],
+            "DRS": [
+              0,
+              0
+            ]
+          },
+          "long_gap_count": 2,
+          "range_invalid_counts": {
+            "Speed": 0,
+            "Throttle": 0,
+            "nGear": 0,
+            "RPM": 0,
+            "Brake": 0
+          },
+          "integrated_length_m": 4882.045701475696,
+          "fastf1_add_distance_length_m": 4849.320555555553,
+          "boundary_samples_added": 2,
+          "long_gaps_distance_time": [
+            [
+              2520.51437301308,
+              2598.92808215466,
+              45.743,
+              46.983
+            ],
+            [
+              4127.260244813115,
+              4194.85433050963,
+              77.544,
+              78.344
+            ]
+          ]
+        }
+      },
+      "weather": {
+        "fastest": {
+          "Time": "0 days 01:02:59.572000",
+          "AirTemp": 29.7,
+          "Humidity": 73.8,
+          "Pressure": 1010.5,
+          "Rainfall": false,
+          "TrackTemp": 39.6,
+          "WindDirection": 165,
+          "WindSpeed": 1.9
+        },
+        "reference": {
+          "Time": "0 days 01:12:59.579000",
+          "AirTemp": 29.7,
+          "Humidity": 74.5,
+          "Pressure": 1010.6,
+          "Rainfall": false,
+          "TrackTemp": 39.8,
+          "WindDirection": 153,
+          "WindSpeed": 2.2
+        }
+      },
+      "sector_delta_reference_minus_fastest_s": [
+        0.03100000000000236,
+        0.11100000000000776,
+        0.10999999999999943
+      ],
+      "cumulative_delta_reference_minus_fastest_s": [
+        0.0,
+        0.03100000000000236,
+        0.14200000000001012,
+        0.25200000000000955
+      ],
+      "lap_start_separation_s": 634.256,
+      "maximum_alignment_method_spread_s": 0.11272820993095678,
+      "graph_png": "03_ver_reference.png"
+    },
+    "LEC": {
+      "fastest": {
+        "Driver": "LEC",
+        "LapNumber": 24.0,
+        "LapTime": "0 days 00:01:31.427000",
+        "LapStartTime": "0 days 01:12:00.770000",
+        "LapStartDate": "2026-10-10 14:28:52.517000",
+        "Compound": "SOFT",
+        "TyreLife": 2.0,
+        "FreshTyre": true,
+        "IsAccurate": true,
+        "Deleted": false,
+        "TrackStatus": "1",
+        "FastF1Generated": false
+      },
+      "reference": {
+        "Driver": "LEC",
+        "LapNumber": 21.0,
+        "LapTime": "0 days 00:01:31.661000",
+        "LapStartTime": "0 days 01:02:20.990000",
+        "LapStartDate": "2026-10-10 14:19:12.737000",
+        "Compound": "SOFT",
+        "TyreLife": 2.0,
+        "FreshTyre": true,
+        "IsAccurate": true,
+        "Deleted": false,
+        "TrackStatus": "1",
+        "FastF1Generated": false
+      },
+      "chronological_runs": {
+        "fastest": "final Q3 run",
+        "reference": "first Q3 run"
+      },
+      "quality": {
+        "fastest": {
+          "samples": 341,
+          "nulls": {
+            "Date": 0,
+            "RPM": 0,
+            "Speed": 0,
+            "nGear": 0,
+            "Throttle": 0,
+            "Brake": 0,
+            "DRS": 0,
+            "Source": 0,
+            "Time": 0,
+            "SessionTime": 0
+          },
+          "source_counts": {
+            "car": 341
+          },
+          "duplicate_timestamps": 0,
+          "nonincreasing_timestamps": 0,
+          "median_dt_s": 0.240000000000002,
+          "maximum_dt_s": 1.2399999999999949,
+          "first_sample_s": 0.182,
+          "last_sample_s": 91.422,
+          "channel_ranges": {
+            "Speed": [
+              63.0,
+              308.0
+            ],
+            "Throttle": [
+              0.0,
+              100.0
+            ],
+            "Brake": [
+              false,
+              true
+            ],
+            "nGear": [
+              1,
+              8
+            ],
+            "RPM": [
+              7012.0,
+              12577.0
+            ],
+            "DRS": [
+              0,
+              0
+            ]
+          },
+          "long_gap_count": 3,
+          "range_invalid_counts": {
+            "Speed": 0,
+            "Throttle": 0,
+            "nGear": 0,
+            "RPM": 0,
+            "Brake": 0
+          },
+          "integrated_length_m": 4897.861954571763,
+          "fastf1_add_distance_length_m": 4896.055000000002,
+          "boundary_samples_added": 2,
+          "long_gaps_distance_time": [
+            [
+              84.77473144624656,
+              139.3330797994873,
+              1.102,
+              1.782
+            ],
+            [
+              2150.281641058197,
+              2191.8881731406905,
+              38.902,
+              39.822
+            ],
+            [
+              4804.496288106995,
+              4888.740075249072,
+              89.662,
+              90.902
+            ]
+          ]
+        },
+        "reference": {
+          "samples": 344,
+          "nulls": {
+            "Date": 0,
+            "RPM": 0,
+            "Speed": 0,
+            "nGear": 0,
+            "Throttle": 0,
+            "Brake": 0,
+            "DRS": 0,
+            "Source": 0,
+            "Time": 0,
+            "SessionTime": 0
+          },
+          "source_counts": {
+            "car": 344
+          },
+          "duplicate_timestamps": 0,
+          "nonincreasing_timestamps": 0,
+          "median_dt_s": 0.2400000000000002,
+          "maximum_dt_s": 1.1600000000000108,
+          "first_sample_s": 0.16,
+          "last_sample_s": 91.56,
+          "channel_ranges": {
+            "Speed": [
+              65.0,
+              307.0
+            ],
+            "Throttle": [
+              0.0,
+              100.0
+            ],
+            "Brake": [
+              false,
+              true
+            ],
+            "nGear": [
+              1,
+              8
+            ],
+            "RPM": [
+              6935.0,
+              12613.0
+            ],
+            "DRS": [
+              0,
+              0
+            ]
+          },
+          "long_gap_count": 4,
+          "range_invalid_counts": {
+            "Speed": 0,
+            "Throttle": 0,
+            "nGear": 0,
+            "RPM": 0,
+            "Brake": 0
+          },
+          "integrated_length_m": 4898.900881712965,
+          "fastf1_add_distance_length_m": 4881.757499999998,
+          "boundary_samples_added": 2,
+          "long_gaps_distance_time": [
+            [
+              890.9348625993031,
+              948.2600417284727,
+              16.08,
+              17.16
+            ],
+            [
+              2192.074480816966,
+              2238.8969519442276,
+              40.0,
+              41.16
+            ],
+            [
+              2791.096237210091,
+              2832.862708293185,
+              51.48,
+              52.6
+            ],
+            [
+              4620.93722116666,
+              4695.380121668028,
+              86.88,
+              88.04
+            ]
+          ]
+        }
+      },
+      "weather": {
+        "fastest": {
+          "Time": "0 days 01:12:59.579000",
+          "AirTemp": 29.7,
+          "Humidity": 74.5,
+          "Pressure": 1010.6,
+          "Rainfall": false,
+          "TrackTemp": 39.8,
+          "WindDirection": 153,
+          "WindSpeed": 2.2
+        },
+        "reference": {
+          "Time": "0 days 01:02:59.572000",
+          "AirTemp": 29.7,
+          "Humidity": 73.8,
+          "Pressure": 1010.5,
+          "Rainfall": false,
+          "TrackTemp": 39.6,
+          "WindDirection": 165,
+          "WindSpeed": 1.9
+        }
+      },
+      "sector_delta_reference_minus_fastest_s": [
+        0.0030000000000001137,
+        0.1670000000000016,
+        0.06399999999999295
+      ],
+      "cumulative_delta_reference_minus_fastest_s": [
+        0.0,
+        0.0030000000000001137,
+        0.1700000000000017,
+        0.23399999999999466
+      ],
+      "lap_start_separation_s": 579.78,
+      "maximum_alignment_method_spread_s": 0.08977127822182496,
+      "graph_png": "04_lec_reference.png"
+    }
+  }
+}

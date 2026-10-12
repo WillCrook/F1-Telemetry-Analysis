@@ -1,0 +1,268 @@
+{
+  "session": "2026 Singapore Grand Prix Qualifying Q3",
+  "fastf1_version": "3.8.3",
+  "python_version": "3.12.11 (main, Sep  9 2025, 15:31:30) [Clang 17.0.0 (clang-1700.0.13.5)]",
+  "distance_length_nominal_m": 4927.0,
+  "long_gap_threshold_s": 0.6,
+  "laps": {
+    "VER": {
+      "Driver": "VER",
+      "LapNumber": 11.0,
+      "LapTime": "0 days 00:01:31.373000",
+      "LapStartTime": "0 days 01:02:10.433000",
+      "LapStartDate": "2026-10-10 14:19:02.180000",
+      "Compound": "SOFT",
+      "TyreLife": 2.0,
+      "FreshTyre": true,
+      "IsAccurate": true,
+      "Deleted": false,
+      "FastF1Generated": false,
+      "TrackStatus": "1"
+    },
+    "LEC": {
+      "Driver": "LEC",
+      "LapNumber": 24.0,
+      "LapTime": "0 days 00:01:31.427000",
+      "LapStartTime": "0 days 01:12:00.770000",
+      "LapStartDate": "2026-10-10 14:28:52.517000",
+      "Compound": "SOFT",
+      "TyreLife": 2.0,
+      "FreshTyre": true,
+      "IsAccurate": true,
+      "Deleted": false,
+      "FastF1Generated": false,
+      "TrackStatus": "1"
+    }
+  },
+  "quality": {
+    "VER": {
+      "samples": 347,
+      "nulls": {
+        "Date": 0,
+        "RPM": 0,
+        "Speed": 0,
+        "nGear": 0,
+        "Throttle": 0,
+        "Brake": 0,
+        "DRS": 0,
+        "Source": 0,
+        "Time": 0,
+        "SessionTime": 0
+      },
+      "source_counts": {
+        "car": 347
+      },
+      "duplicate_timestamps": 0,
+      "nonincreasing_timestamps": 0,
+      "median_dt_s": 0.24000000000000066,
+      "maximum_dt_s": 1.1599999999999966,
+      "first_sample_s": 0.157,
+      "last_sample_s": 91.317,
+      "channel_ranges": {
+        "Speed": [
+          63.0,
+          308.0
+        ],
+        "Throttle": [
+          0.0,
+          100.0
+        ],
+        "Brake": [
+          false,
+          true
+        ],
+        "nGear": [
+          1,
+          8
+        ],
+        "RPM": [
+          6818.0,
+          12808.0
+        ],
+        "DRS": [
+          0,
+          0
+        ]
+      },
+      "long_gap_count": 3,
+      "range_invalid_counts": {
+        "Speed": 0,
+        "Throttle": 0,
+        "nGear": 0,
+        "RPM": 0,
+        "Brake": 0
+      },
+      "integrated_length_m": 4881.233727678571,
+      "fastf1_add_distance_length_m": 4871.898333333332,
+      "boundary_samples_added": 2,
+      "long_gaps_distance_time": [
+        [
+          1608.0934631253235,
+          1693.0324505065278,
+          26.637,
+          27.717
+        ],
+        [
+          2754.5574032457985,
+          2792.285633727131,
+          50.557,
+          51.717
+        ],
+        [
+          3195.369130285684,
+          3268.066630279738,
+          62.037,
+          63.157
+        ]
+      ]
+    },
+    "LEC": {
+      "samples": 341,
+      "nulls": {
+        "Date": 0,
+        "RPM": 0,
+        "Speed": 0,
+        "nGear": 0,
+        "Throttle": 0,
+        "Brake": 0,
+        "DRS": 0,
+        "Source": 0,
+        "Time": 0,
+        "SessionTime": 0
+      },
+      "source_counts": {
+        "car": 341
+      },
+      "duplicate_timestamps": 0,
+      "nonincreasing_timestamps": 0,
+      "median_dt_s": 0.240000000000002,
+      "maximum_dt_s": 1.2399999999999949,
+      "first_sample_s": 0.182,
+      "last_sample_s": 91.422,
+      "channel_ranges": {
+        "Speed": [
+          63.0,
+          308.0
+        ],
+        "Throttle": [
+          0.0,
+          100.0
+        ],
+        "Brake": [
+          false,
+          true
+        ],
+        "nGear": [
+          1,
+          8
+        ],
+        "RPM": [
+          7012.0,
+          12577.0
+        ],
+        "DRS": [
+          0,
+          0
+        ]
+      },
+      "long_gap_count": 3,
+      "range_invalid_counts": {
+        "Speed": 0,
+        "Throttle": 0,
+        "nGear": 0,
+        "RPM": 0,
+        "Brake": 0
+      },
+      "integrated_length_m": 4897.861954571763,
+      "fastf1_add_distance_length_m": 4896.055000000002,
+      "boundary_samples_added": 2,
+      "long_gaps_distance_time": [
+        [
+          84.77473144624656,
+          139.3330797994873,
+          1.102,
+          1.782
+        ],
+        [
+          2150.281641058197,
+          2191.8881731406905,
+          38.902,
+          39.822
+        ],
+        [
+          4804.496288106995,
+          4888.740075249072,
+          89.662,
+          90.902
+        ]
+      ]
+    }
+  },
+  "weather": {
+    "VER": {
+      "Time": "0 days 01:02:59.572000",
+      "AirTemp": 29.7,
+      "Humidity": 73.8,
+      "Pressure": 1010.5,
+      "Rainfall": false,
+      "TrackTemp": 39.6,
+      "WindDirection": 165,
+      "WindSpeed": 1.9
+    },
+    "LEC": {
+      "Time": "0 days 01:12:59.579000",
+      "AirTemp": 29.7,
+      "Humidity": 74.5,
+      "Pressure": 1010.6,
+      "Rainfall": false,
+      "TrackTemp": 39.8,
+      "WindDirection": 153,
+      "WindSpeed": 2.2
+    }
+  },
+  "official_cumulative_delta_s": [
+    0.0,
+    0.022999999999999687,
+    -0.10699999999999932,
+    0.054000000000002046
+  ],
+  "sector_distance_anchors_m": [
+    0.0,
+    1636.799694971749,
+    3449.9920679384163,
+    4927.0
+  ],
+  "turn7_phase_proxies": {
+    "VER": {
+      "entry_bracket_m": [
+        1608.0934631253235,
+        1693.0324505065278
+      ],
+      "entry_bracket_s": [
+        26.637,
+        27.717
+      ],
+      "apex_proxy_m": 1795.6186943272023,
+      "minimum_observed_speed_kmh": 118.0,
+      "exit_proxy_m": 1841.8200752629482,
+      "exit_proxy_time_s": 31.237,
+      "gear_at_minimum": 3
+    },
+    "LEC": {
+      "entry_bracket_m": [
+        1674.2519946071175,
+        1709.5661807882466
+      ],
+      "entry_bracket_s": [
+        27.462,
+        27.902
+      ],
+      "apex_proxy_m": 1804.520862904051,
+      "minimum_observed_speed_kmh": 123.0,
+      "exit_proxy_m": 1853.5531448080312,
+      "exit_proxy_time_s": 31.262,
+      "gear_at_minimum": 2
+    }
+  },
+  "maximum_alignment_method_spread_s": 0.19297736641703267
+}
